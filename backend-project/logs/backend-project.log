@@ -1,0 +1,46 @@
+16/7/2025 10:42:59.pm [main] INFO  c.e.b.BackendProjectApplication -- Starting BackendProjectApplication using Java 21.0.7 with PID 15176 (D:\Projects\backend-project\target\classes started by intel in D:\Projects\backend-project)
+16/7/2025 10:42:59.pm [main] INFO  c.e.b.BackendProjectApplication -- No active profile set, falling back to 1 default profile: "default"
+16/7/2025 10:43:00.pm [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer -- Tomcat initialized with port 8080 (http)
+16/7/2025 10:43:00.pm [main] INFO  o.a.coyote.http11.Http11NioProtocol -- Initializing ProtocolHandler ["http-nio-8080"]
+16/7/2025 10:43:00.pm [main] INFO  o.a.catalina.core.StandardService -- Starting service [Tomcat]
+16/7/2025 10:43:00.pm [main] INFO  o.a.catalina.core.StandardEngine -- Starting Servlet engine: [Apache Tomcat/10.1.42]
+16/7/2025 10:43:00.pm [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] -- Initializing Spring embedded WebApplicationContext
+16/7/2025 10:43:00.pm [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext -- Root WebApplicationContext: initialization completed in 1306 ms
+16/7/2025 10:43:00.pm [main] INFO  o.a.coyote.http11.Http11NioProtocol -- Starting ProtocolHandler ["http-nio-8080"]
+16/7/2025 10:43:00.pm [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer -- Tomcat started on port 8080 (http) with context path '/'
+16/7/2025 10:43:00.pm [main] INFO  c.e.b.BackendProjectApplication -- Started BackendProjectApplication in 2.545 seconds (process running for 2.935)
+16/7/2025 10:44:01.pm [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] -- Initializing Spring DispatcherServlet 'dispatcherServlet'
+16/7/2025 10:44:01.pm [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet -- Initializing Servlet 'dispatcherServlet'
+16/7/2025 10:44:01.pm [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet -- Completed initialization in 1 ms
+16/7/2025 10:44:01.pm [http-nio-8080-exec-1] INFO  c.e.b.Controllers.HomeController -- This is api calling default value
+16/7/2025 10:44:01.pm [http-nio-8080-exec-1] ERROR c.e.b.Controllers.HomeController -- This is api calling default value
+16/7/2025 10:44:01.pm [http-nio-8080-exec-1] WARN  c.e.b.Controllers.HomeController -- This is api calling default value
+16/7/2025 10:44:03.pm [http-nio-8080-exec-2] INFO  c.e.b.Controllers.HomeController -- This is api calling default value
+16/7/2025 10:44:03.pm [http-nio-8080-exec-2] ERROR c.e.b.Controllers.HomeController -- This is api calling default value
+16/7/2025 10:44:03.pm [http-nio-8080-exec-2] WARN  c.e.b.Controllers.HomeController -- This is api calling default value
+16/7/2025 10:44:05.pm [http-nio-8080-exec-3] INFO  c.e.b.Controllers.HomeController -- This is api calling default value
+16/7/2025 10:44:05.pm [http-nio-8080-exec-3] ERROR c.e.b.Controllers.HomeController -- This is api calling default value
+16/7/2025 10:44:05.pm [http-nio-8080-exec-3] WARN  c.e.b.Controllers.HomeController -- This is api calling default value
+16/7/2025 10:46:22.pm [main] INFO  c.e.b.BackendProjectApplication -- Starting BackendProjectApplication using Java 21.0.7 with PID 2340 (D:\Projects\backend-project\target\classes started by intel in D:\Projects\backend-project)
+16/7/2025 10:46:22.pm [main] INFO  c.e.b.BackendProjectApplication -- No active profile set, falling back to 1 default profile: "default"
+16/7/2025 10:46:24.pm [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer -- Tomcat initialized with port 8080 (http)
+16/7/2025 10:46:24.pm [main] INFO  o.a.coyote.http11.Http11NioProtocol -- Initializing ProtocolHandler ["http-nio-8080"]
+16/7/2025 10:46:24.pm [main] INFO  o.a.catalina.core.StandardService -- Starting service [Tomcat]
+16/7/2025 10:46:24.pm [main] INFO  o.a.catalina.core.StandardEngine -- Starting Servlet engine: [Apache Tomcat/10.1.42]
+16/7/2025 10:46:24.pm [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] -- Initializing Spring embedded WebApplicationContext
+16/7/2025 10:46:24.pm [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext -- Root WebApplicationContext: initialization completed in 1292 ms
+16/7/2025 10:46:24.pm [main] INFO  o.a.coyote.http11.Http11NioProtocol -- Starting ProtocolHandler ["http-nio-8080"]
+16/7/2025 10:46:24.pm [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer -- Tomcat started on port 8080 (http) with context path '/'
+16/7/2025 10:46:24.pm [main] INFO  c.e.b.BackendProjectApplication -- Started BackendProjectApplication in 2.537 seconds (process running for 2.962)
+16/7/2025 10:48:19.pm [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] -- Initializing Spring DispatcherServlet 'dispatcherServlet'
+16/7/2025 10:48:19.pm [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet -- Initializing Servlet 'dispatcherServlet'
+16/7/2025 10:48:19.pm [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet -- Completed initialization in 0 ms
+16/7/2025 10:48:19.pm [http-nio-8080-exec-1] INFO  c.e.b.Controllers.HomeController -- This is api calling kajal
+16/7/2025 10:48:19.pm [http-nio-8080-exec-1] ERROR c.e.b.Controllers.HomeController -- This is api calling kajal
+16/7/2025 10:48:19.pm [http-nio-8080-exec-1] WARN  c.e.b.Controllers.HomeController -- This is api calling kajal
+16/7/2025 10:48:48.pm [http-nio-8080-exec-4] INFO  c.e.b.Controllers.HomeController -- This is api calling kajal
+16/7/2025 10:48:48.pm [http-nio-8080-exec-4] ERROR c.e.b.Controllers.HomeController -- This is api calling kajal
+16/7/2025 10:48:48.pm [http-nio-8080-exec-4] WARN  c.e.b.Controllers.HomeController -- This is api calling kajal
+16/7/2025 10:48:48.pm [http-nio-8080-exec-5] INFO  c.e.b.Controllers.HomeController -- This is api calling kajal
+16/7/2025 10:48:48.pm [http-nio-8080-exec-5] ERROR c.e.b.Controllers.HomeController -- This is api calling kajal
+16/7/2025 10:48:48.pm [http-nio-8080-exec-5] WARN  c.e.b.Controllers.HomeController -- This is api calling kajal

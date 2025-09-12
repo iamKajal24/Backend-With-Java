@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html
+  lang="en"
+  th:replace="~{base :: parent(~{::#content},~{::title},~{::script})}"
+>
+  <head>
+    <title>Contact page</title>
+  </head>
+  <body>
+    <div id="content">
+      <!-- Contact Page -->
+      <section class="bg-white dark:bg-gray-900 py-20 px-6">
+        <div class="max-w-3xl mx-auto">
+          <h2 class="text-3xl font-bold text-center text-purple-600 mb-6">
+            Get in Touch
+          </h2>
+          <form action="#" method="POST" class="space-y-6">
+            <input
+              type="text"
+              name="name"
+              placeholder="Full Name"
+              required
+              class="w-full px-4 py-2 border rounded-lg dark:bg-gray-800 dark:text-white border-gray-300 dark:border-gray-600 focus:outline-none focus:ring-2 focus:ring-purple-600"
+            />
+            <input
+              type="email"
+              name="email"
+              placeholder="Email Address"
+              required
+              class="w-full px-4 py-2 border rounded-lg dark:bg-gray-800 dark:text-white border-gray-300 dark:border-gray-600 focus:outline-none focus:ring-2 focus:ring-purple-600"
+            />
+            <textarea
+              name="message"
+              rows="4"
+              placeholder="Your Message"
+              class="w-full px-4 py-2 border rounded-lg dark:bg-gray-800 dark:text-white border-gray-300 dark:border-gray-600 focus:outline-none focus:ring-2 focus:ring-purple-600"
+            ></textarea>
+            <button
+              type="submit"
+              class="w-full bg-purple-600 hover:bg-purple-700 text-white font-semibold py-2 rounded-lg transition"
+            >
+              Send Message
+            </button>
+          </form>
+        </div>
+      </section>
+    </div>
+
+    <script>
+      console.log("Contact page");
+    </script>
+  </body>
+</html>

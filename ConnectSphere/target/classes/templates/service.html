@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html
+  lang="en"
+  th:replace="~{base :: parent(~{::#content},~{::title},~{::script})}"
+>
+  <head>
+    <title>Service page</title>
+  </head>
+  <body>
+    <div id="content">
+      <!-- Services Page -->
+      <section class="bg-gray-50 dark:bg-gray-900 py-20 px-6">
+        <div class="max-w-6xl mx-auto">
+          <h2 class="text-3xl font-bold text-center text-purple-600 mb-10">
+            Our Services
+          </h2>
+          <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+            <div
+              class="bg-white dark:bg-gray-800 p-6 rounded-lg shadow text-center"
+            >
+              <i class="fas fa-users text-purple-500 text-3xl mb-4"></i>
+              <h3 class="text-xl font-semibold mb-2">Networking</h3>
+              <p class="text-sm">
+                Expand your network with like-minded professionals through
+                community features.
+              </p>
+            </div>
+            <div
+              class="bg-white dark:bg-gray-800 p-6 rounded-lg shadow text-center"
+            >
+              <i class="fas fa-lightbulb text-purple-500 text-3xl mb-4"></i>
+              <h3 class="text-xl font-semibold mb-2">Knowledge Sharing</h3>
+              <p class="text-sm">
+                Access curated content and share insights to help each other
+                grow.
+              </p>
+            </div>
+            <div
+              class="bg-white dark:bg-gray-800 p-6 rounded-lg shadow text-center"
+            >
+              <i class="fas fa-handshake text-purple-500 text-3xl mb-4"></i>
+              <h3 class="text-xl font-semibold mb-2">Collaboration</h3>
+              <p class="text-sm">
+                Work together on ideas and innovations that matter to the
+                community.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <script>
+      console.log("Service page");
+    </script>
+  </body>
+</html>

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html
+  lang="en"
+  th:fragment="parent(content,title,script)"
+  xmlns:th="http://www.thymeleaf.org"
+>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title data-th-replace="${title}">SCM</title>
+
+    <!--tailwind cdn link-->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <!--flowite tailwind cdn-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.css"
+      rel="stylesheet"
+    />
+
+    <!--fontawesome link-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!--common header-->
+    <div data-th-replace="navbar::navbar"></div>
+
+    <!-- main content -->
+    <div class="p-24">
+      <section data-th-replace="${content}"></section>
+    </div>
+
+    <!--footer-->
+    <footer
+      class="fixed bottom-0 w-full bg-gray-900 text-gray-300 px-2 py-2 sm:px-5 lg:px-8 z-50"
+    >
+      <div
+        class="max-w-7xl mx-auto flex flex-col items-center justify-center gap-3 text-center"
+      >
+        <!-- Branding & Credit Text Centered -->
+        <div class="text-xs sm:text-sm">
+          &copy; 2025
+          <span class="text-purple-400 font-semibold">ConnectSphere</span>. All
+          rights reserved.<br />
+          Conceptualized & developed by
+          <span class="text-purple-300 font-medium">Kajal</span> 💜
+        </div>
+
+        <!-- Social Links Centered -->
+        <div class="flex justify-center gap-4 text-xl">
+          <a
+            href="https://facebook.com"
+            target="_blank"
+            class="hover:text-white transition"
+            ><i class="fab fa-facebook-f"></i
+          ></a>
+          <a
+            href="mailto:connectsphere@example.com"
+            class="hover:text-white transition"
+            ><i class="fas fa-envelope"></i
+          ></a>
+          <a
+            href="https://linkedin.com/in/kajal"
+            target="_blank"
+            class="hover:text-white transition"
+            ><i class="fab fa-linkedin-in"></i
+          ></a>
+          <a
+            href="https://github.com/kajal"
+            target="_blank"
+            class="hover:text-white transition"
+            ><i class="fab fa-github"></i
+          ></a>
+        </div>
+      </div>
+    </footer>
+
+    <!--flowite cdn js-->
+    <script src="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.js"></script>
+
+    <th:block data-th-replace="${script}"></th:block>
+  </body>
+</html>

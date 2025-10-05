@@ -1,7 +1,5 @@
-<%@page language="java" %>
-
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
   <head>
     <title>Kajal Calculator</title>
     <link rel="stylesheet" href="style.css" />
@@ -10,12 +8,12 @@
     <div class="container">
       <h2>Kajal Calculator</h2>
 
-      <form action="addAlien">
+      <form th:action="@{/addAlien}" method="post">
         <label for="aid">Enter aid :</label>
-        <input type="text" id="aid" name="aid" />
+        <input type="text" id="aid" name="aid" /><br /><br />
 
         <label for="aname">Enter aname :</label>
-        <input type="text" id="aname" name="aname" />
+        <input type="text" id="aname" name="aname" /><br /><br />
 
         <input type="submit" value="Submit" />
       </form>

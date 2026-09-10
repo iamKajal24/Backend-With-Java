@@ -24,8 +24,7 @@
         <mapping class="com.hibernatelearn.Students"></mapping>
         <mapping class="com.hibernatelearn.Course"></mapping>
 
-
-
+        <mapping resource="com/hibernatelearn/MapXmlFile/PersonXmlEx.hbm.xml"></mapping>
 
      </session-factory>
 </hibernate-configuration>

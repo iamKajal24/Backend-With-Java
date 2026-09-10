@@ -1,5 +1,7 @@
 package com.hibernatelearn;
 
+import java.util.List;
+
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
 import jakarta.persistence.JoinColumn;
@@ -45,8 +47,8 @@ public class Questions {
         return answer;
     }
 
-    public void setAnswer(Answer answer) {
-        this.answer = answer;
+    public void setAnswer(List<Answer> l1) {
+        this.answer = (Answer) l1;
     }
 
     @Override
